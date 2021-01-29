@@ -21,6 +21,8 @@
   "author": "NIHILncunia",
   "license": "MIT",
   "dependencies": {
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
     "immer": "^8.0.1",
     "next": "^10.0.5",
     "prop-types": "^15.7.2",
