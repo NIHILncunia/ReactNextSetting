@@ -27,4 +27,8 @@ const App = () => {
 // symbol: PropTypes.symbol.isRequired,
 // elementType: PropTypes.elementType.isRequired,
 
+// shape: PropTypes.shape({
+//   item: PropTypes.string.isRequired,
+// });
+
 export default App;
