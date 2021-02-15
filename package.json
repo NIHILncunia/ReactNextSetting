@@ -15,7 +15,7 @@
     "serve": "next dev",
     "start": "next start",
     "build": "next build",
-    "export": "next build && next export"
+    "export": "next build && next export -o app/"
   },
   "keywords": [],
   "author": "NIHILncunia",
@@ -24,7 +24,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
     "immer": "^8.0.1",
-    "next": "^10.0.6",
+    "next": "^10.0.7",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -32,10 +32,13 @@
     "redux": "^4.0.5",
     "redux-saga": "^1.1.3",
     "styled-components": "^5.2.1",
-    "uuid4": "^2.0.2"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "eslint": "^7.19.0",
+    "@babel/core": "^7.12.16",
+    "@emotion/babel-plugin": "^11.2.0",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "eslint": "^7.20.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0"
