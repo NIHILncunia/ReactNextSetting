@@ -12,6 +12,7 @@
       "@utils/*": ["./utils/*"],
       "@pages/*": ["./pages/*"],
       "@data/*": ["./data/*"],
+      "@layouts/*": ["./layouts/*"],
     }
   },
   "exclude": [
