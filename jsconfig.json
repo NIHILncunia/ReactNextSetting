@@ -2,17 +2,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["./components/*"],
-      "@store/*": ["./store/*"],
-      "@assets/*": ["./assets/*"],
-      "@images/*": ["./assets/images/*"],
-      "@css/*": ["./assets/css/*"],
-      "@hooks/*": ["./hooks/*"],
-      "@reducers/*": ["./reducers/*"],
-      "@utils/*": ["./utils/*"],
-      "@pages/*": ["./pages/*"],
-      "@data/*": ["./data/*"],
-      "@layouts/*": ["./layouts/*"],
+      "@components/*": ["./src/components/*"],
+      "@store/*": ["./src/store/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@images/*": ["./src/images/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@reducers/*": ["./src/reducers/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@pages/*": ["src/pages/*"],
+      "@data/*": ["./src/data/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@templates/*": ["./src/templates/*"],
     }
   },
   "exclude": [
