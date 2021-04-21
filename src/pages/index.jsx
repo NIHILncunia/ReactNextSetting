@@ -1,34 +1,22 @@
 import React from 'react';
-import Head from 'next/head';
-// import PropTypes from 'prop-types';
+// import { css } from '@emotion/react';
 
-const App = () => {
+const index = ({ name, }) => {
   return (
     <>
-      <Head>
-        <title>메인 페이지 - 사이트 이름</title>
-      </Head>
-      <div>메인 페이지</div>
+      <div>Hello {name}!!</div>
     </>
   );
 };
 
-// name.propTypes = {
-//
-// };
+export const getStaticProps = async () => {
+  const name = 'Next';
 
-// node: PropTypes.node.isRequired,
-// string: PropTypes.string.isRequired,
-// number: PropTypes.number.isRequired,
-// func: PropTypes.func.isRequired,
-// object: PropTypes.object.isRequired,
-// array: PropTypes.array.isRequired,
-// bool: PropTypes.bool.isRequired,
-// symbol: PropTypes.symbol.isRequired,
-// elementType: PropTypes.elementType.isRequired,
+  return {
+    props: {
+      name,
+    },
+  };
+};
 
-// shape: PropTypes.shape({
-//   item: PropTypes.string.isRequired,
-// });
-
-export default App;
+export default index;

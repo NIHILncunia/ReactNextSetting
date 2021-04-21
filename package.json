@@ -1,16 +1,16 @@
 {
-  "name": "react-next-setting",
-  "version": "1.1.0",
+  "name": "nihil-next-template",
+  "version": "1.0.0",
   "description": "넥스트 편하게 하려고 만든 템플릿",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NIHILncunia/ReactNextSetting.git"
+    "url": "git+https://github.com/NIHILncunia/nihil-next-template.git"
   },
   "bugs": {
-    "url": "https://github.com/NIHILncunia/ReactNextSetting/issues"
+    "url": "https://github.com/NIHILncunia/nihil-next-template/issues"
   },
-  "homepage": "https://github.com/NIHILncunia/ReactNextSetting#readme",
+  "homepage": "https://github.com/NIHILncunia/nihil-next-template#readme",
   "scripts": {
     "serve": "next dev",
     "start": "next start",
