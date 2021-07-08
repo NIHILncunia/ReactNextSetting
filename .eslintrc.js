@@ -15,7 +15,7 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
@@ -24,7 +24,13 @@ module.exports = {
   plugins: [
     'import',
     'react-hooks',
+    'react',
   ],
+  settings: {
+    'react': {
+      'version': 'detect',
+    },
+  },
   rules: {
     'no-console': 0,
     'no-unused-vars': 1,
@@ -64,6 +70,6 @@ module.exports = {
     
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 0,
-    'react/display-name': 0,
+    'react/display-name': 1,
   },
 };
